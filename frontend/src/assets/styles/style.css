@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Joan&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Joan", serif;
+}
+/************FONTS*******************/
+.font-joan {
+    font-family: "Joan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.font-italiana {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.font-default
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.font-sm
+{
+    font-size: .8em;
+}
+.pending
+{
+    background-color: #db8b0b;
+}
+.completed
+{
+    background-color: #20ada4;
+}
+.prog
+{
+    background-color: #3325c8;
+}
+.transparent-bg
+{
+    background-color: #efeeee;
+}
+body
+{
+    font-family: "Joan", serif;
+    font-weight: 400;
+    font-style: normal;
+    --bs-body-bg: #efeeee;
+}
+/****************LOGIN PAGE***********************/
+.entrance-logo
+{
+    transform: scale(0.8);
+}
+.auth-bg
+{
+    height: 100vh;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.right-side
+{
+    background-color: #ffffff55;
+}
+.left-side
+{
+    background-color: #d9d9d9f0;
+}
+.default-input
+{
+    background-color: #E6E6E6;
+    border: 1px solid #BCBDBE;
+    border-radius: 5px;
+    padding: 15px 10px;
+    font-family:  "Joan", serif;
+}
+.button-sm
+{
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    font-size: .7em;
+}
+.button-md
+{
+    font-size: .9em;
+}
+.default-input:focus
+{
+    outline: 1px solid #b6b5b5;
+}
+.default-input::placeholder
+{
+    color: #8F8F8F;
+    font-size: .8em;
+    opacity: .5;
+}
+.default-button
+{
+    background-color: black;
+    color: white;
+    font-family:  "Joan", serif;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+}
+
+.more-info
+{
+    color: #5D5D5D;
+}
+.more-info a
+{
+    text-decoration: none;
+    color: black;
+}
+/****************HEADER***********************/
+.header
+{
+    background-color: #d0d0d0d3;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 50px;
+    height: 70px;
+    padding: 10px 20px;
+}
+.header-border
+{
+    margin: 20px auto;
+    border-radius: 50px;
+    width: 70%;
+    height: 74px;
+    background: linear-gradient(40deg, #18d3e0 10%,#1897e0 20%, #6c11b6 40%);
+}
+.logo
+{
+    transform: scale(.8);
+}
+/****************TASK CARD***********************/
+.badge
+{
+    color: black;
+}
+h4
+{
+    height: 40px;
+    background: linear-gradient(40deg, #18d3e0 10%,#1897e0 20%, #6c11b6 40%);
+    border-radius: 5px;
+    padding-top: 5px;
+    width: max-content;
+}
+.badge-dark{
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+.tasks-container
+{
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+    height: max-content;
+}
+.icons
+{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.table tbody tr td
+{
+    background-color: white;
+}
+/****************ERROR PAGE***********************/
+.error-logo
+{
+    width: 350px;
+    height: 450px;
+}
+.error-page-left
+{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #b6b5b5a1;
+}
